@@ -1,0 +1,31 @@
+/* My font: Kumbh Sans -> 400, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* CSS variables */
+:root {
+  --kumbh-sans: 'Kumbh Sans', sans-serif;
+  /* primary colors */
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated: hsl(229, 23%, 23%);
+  --dark-grayish: hsl(227, 10%, 46%);
+
+  /* neutral color */
+  --dark-gray: hsl(0, 0%, 59%);
+
+  /* standard font-size */
+  --font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--kumbh-sans);
+}
+
+
+
+
