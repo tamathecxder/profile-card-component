@@ -36,3 +36,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.card {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
