@@ -26,3 +26,13 @@ body {
   font-family: var(--kumbh-sans);
   background-color: var(--dark-cyan);
 }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
